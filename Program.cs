@@ -10,6 +10,8 @@ namespace ZadanieX
             double k = 999.01;
             var s = 10;
             Console.WriteLine($"{h} {k} {s}");
+            h = h * h;
+            Console.WriteLine(h);
         }
     }
 }
