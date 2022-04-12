@@ -24,7 +24,6 @@ namespace ZadanieX
             int b = Convert.ToInt32(Console.ReadLine());
             int c = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(a * b * c);
-            Console.ReadKey();
             //-------------------------------------------------------------
             Console.WriteLine("Введите два числа: ");
             double i = Convert.ToDouble(Console.ReadLine());
@@ -37,9 +36,29 @@ namespace ZadanieX
             {
                 Console.WriteLine("{0} Наибольшее число", o);
             }
-            Console.ReadLine();
             //-------------------------------------------------------------
-
+            Console.WriteLine("Введите два числа: ");
+            double n = Convert.ToDouble(Console.ReadLine());
+            double m = Convert.ToDouble(Console.ReadLine());
+            n = n / 2;
+            m = m / 2;
+            if (n%2==0)
+            {
+                Console.WriteLine("Первое число четное");
+            }
+            else
+            {
+                Console.WriteLine("Первое число нечетное");
+            }
+            if (m%2==1)
+            {
+                Console.WriteLine("Второе число четное");
+            }
+            else
+            {
+                Console.WriteLine("Второе число нечетное");
+            }
+            Console.ReadKey();
         }
     }
 }
