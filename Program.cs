@@ -25,6 +25,20 @@ namespace ZadanieX
             int c = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(a * b * c);
             Console.ReadKey();
+            //-------------------------------------------------------------
+            Console.WriteLine("Введите два числа: ");
+            double i = Convert.ToDouble(Console.ReadLine());
+            double o = Convert.ToDouble(Console.ReadLine());
+            if (i>o)
+            {
+                Console.WriteLine("{0} Наибольшее число", i);
+            }
+            else
+            {
+                Console.WriteLine("{0} Наибольшее число", o);
+            }
+            Console.ReadLine();
+            //-------------------------------------------------------------
         }
     }
 }
