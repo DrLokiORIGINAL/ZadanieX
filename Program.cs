@@ -50,7 +50,7 @@ namespace ZadanieX
             {
                 Console.WriteLine("Первое число нечетное");
             }
-            if (m%2==1)
+            if (m%2==0)
             {
                 Console.WriteLine("Второе число четное");
             }
@@ -58,7 +58,6 @@ namespace ZadanieX
             {
                 Console.WriteLine("Второе число нечетное");
             }
-            Console.ReadKey();
         }
     }
 }
