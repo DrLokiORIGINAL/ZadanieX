@@ -6,7 +6,8 @@ namespace ZadanieX
     {
         static void Main(string[] args)
         {
-            
+            int a = 1;
+
         }
     }
 }
