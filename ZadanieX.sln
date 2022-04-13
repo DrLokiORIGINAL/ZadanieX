@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadanieX", "ZadanieX.csproj", "{10CFB855-88D8-4BF2-8E84-E3C20A9858A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadanieX", "ZadanieX.csproj", "{10CFB855-88D8-4BF2-8E84-E3C20A9858A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INFINITY1", "..\INFINITY1\INFINITY1.csproj", "{F45A6E78-87DB-473C-A4CD-6465432A5334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "INFINITY1", "..\INFINITY1\INFINITY1.csproj", "{F45A6E78-87DB-473C-A4CD-6465432A5334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9", "..\9\9.csproj", "{B44ABC33-3349-453E-B681-045075AA536B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F45A6E78-87DB-473C-A4CD-6465432A5334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F45A6E78-87DB-473C-A4CD-6465432A5334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F45A6E78-87DB-473C-A4CD-6465432A5334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44ABC33-3349-453E-B681-045075AA536B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44ABC33-3349-453E-B681-045075AA536B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44ABC33-3349-453E-B681-045075AA536B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44ABC33-3349-453E-B681-045075AA536B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

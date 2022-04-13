@@ -40,24 +40,16 @@ namespace ZadanieX
             Console.WriteLine("Введите два числа: ");
             double n = Convert.ToDouble(Console.ReadLine());
             double m = Convert.ToDouble(Console.ReadLine());
-            n = n / 2;
-            m = m / 2;
-            if (n%2==0)
+            if (n % 2 == 0 && m % 2 == 0)
             {
-                Console.WriteLine("Первое число четное");
+                Console.WriteLine(n + m);
             }
             else
             {
-                Console.WriteLine("Первое число нечетное");
+                Console.WriteLine(n * m);
             }
-            if (m%2==0)
-            {
-                Console.WriteLine("Второе число четное");
-            }
-            else
-            {
-                Console.WriteLine("Второе число нечетное");
-            }
+            //-------------------------------------------------------------
+
         }
     }
 }
