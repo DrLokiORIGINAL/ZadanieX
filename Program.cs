@@ -49,7 +49,12 @@ namespace ZadanieX
                 Console.WriteLine(n * m);
             }
             //-------------------------------------------------------------
-
+            int[] array = new int[5];
+            //-------------------------------------------------------------
+            for (int y = 0; y < array.Length; y++)
+            {
+                array[y] = int.Parse(Console.ReadLine());
+            }
         }
     }
 }
